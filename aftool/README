@@ -1,0 +1,19 @@
+This is the tool that creates the background for the WebSVN and the Website,
+it is also the tool that creates the images for afgui. It is written in C
+and uses libgd. It is a very simple algorithm but effective in what it does.
+It can be expanded on, by adding new functions to manipulate the data or by
+taking out some lines of the code. 
+
+The program takes a list of PNG graphic's (four files specificly) stored in 
+text format. You can most easily create this list by using a shell, I use
+bash. For creating a list I use
+
+$ ls | grep '.png' > list.txt
+
+but you could also just edit a text file and put the path names for each
+file one per line.
+
+
+- Jared 
+
+

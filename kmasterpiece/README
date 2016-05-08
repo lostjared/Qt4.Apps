@@ -1,0 +1,50 @@
+KMasterPiece
+
+	licence GPL
+
+This is not a port of Masterpiece but a recode of the game using Qt4.
+The program runs on a variety of platforms supported by  Qt4.
+It is a simple game same game I always make when Im learning something new.
+You have three blocks, you can switch them up and down. You place the blocks
+and when three line up of the same color, going up down or diagonal it will 
+dissappear. The graphics are just simple 'dummy' graphics and hopefully will
+be replaaced. 
+
+Features:
+
+		* Options window:
+			- ability to change games movement speed
+		* High Scores:
+			- high scores are stored in a text file
+
+Todo for future versions:
+
+		Networking support for multiplayer
+		Better graphics!! (hopefully)
+		
+
+How to build:
+
+	well install the qt4 development librarys on kubuntu its
+
+	sudo apt-get install libqt4-dev
+
+	go to the console type these commands:
+
+
+	svn co svn://lostsidedead.com/kmasterpiece
+	cd kmasterpiece
+	qmake -project
+	qmake
+	make
+
+then once its built run the application with the following:
+
+	./kmasterpiece
+
+if the graphics data is in a different folder use the following arguments
+
+	./kmasterpiece --path /path/to/data
+
+
+- Jared

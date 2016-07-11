@@ -8,6 +8,7 @@
 #include<QtCore>
 #include<QtGui>
 #include<QtOpenGL>
+#include<GL/glu.h>
 #include"mpmut.h"
 #include<vector>
 #include<fstream>

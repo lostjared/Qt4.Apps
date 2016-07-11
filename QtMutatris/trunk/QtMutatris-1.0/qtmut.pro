@@ -8,6 +8,7 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
 RESOURCES += resource.qrc
+LIBS += -lGLU
 
 # Input
 HEADERS += gameWidget.h mainWindow.h mpmut.h

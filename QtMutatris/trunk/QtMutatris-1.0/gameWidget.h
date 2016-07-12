@@ -8,7 +8,11 @@
 #include<QtCore>
 #include<QtGui>
 #include<QtOpenGL>
+#ifdef __APPLE__
+#include<OpenGL/glu.h>
+#else
 #include<GL/glu.h>
+#endif
 #include"mpmut.h"
 #include<vector>
 #include<fstream>

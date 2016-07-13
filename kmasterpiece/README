@@ -1,3 +1,9 @@
+Note: When compiling on Mac OS X you have to copy the data
+to the .app folder. Just invoke copyfiles.sh from the terminal after compiling.
+
+
+
+
 KMasterPiece
 
 	licence GPL

@@ -82,12 +82,12 @@ void OptionsDialog::cancel()
 
 }
 
-const int OptionsDialog::getSpeed() const
+int OptionsDialog::getSpeed() const
 {
 	return game_speed;
 }
 
-const int OptionsDialog::getMode() const
+int OptionsDialog::getMode() const
 {
 	return mode;
 }

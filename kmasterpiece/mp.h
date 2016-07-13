@@ -26,9 +26,9 @@ public:
 	void nextBlock();
 	void update();
 
-	const int getScore() const;
-	const int getLines() const;
-	const bool isOver() const;
+	int getScore() const;
+	int getLines() const;
+	bool isOver() const;
 
 	int operator()(int x, int y);
 	const mpBlock *getBlock() const;

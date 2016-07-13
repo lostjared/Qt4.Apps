@@ -43,7 +43,7 @@ void infoWindow::closeEvent(QCloseEvent *)
 }
 
 
-void infoWindow::showMessage(char *string)
+void infoWindow::showMessage(const char *string)
 {
 	text->setText(tr(string));
 	show();

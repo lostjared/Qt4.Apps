@@ -14,7 +14,7 @@ Q_OBJECT
 public:
 	infoWindow(QWidget *parent = 0);
 	void closeEvent(QCloseEvent *q);
-	void showMessage(char *string);
+	void showMessage(const char *string);
 	void paintEvent(QPaintEvent *);
 
 public slots:

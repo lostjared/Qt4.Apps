@@ -14,9 +14,9 @@ public:
 	OptionsDialog(QWidget *parent = 0);
 	void closeEvent(QCloseEvent *close);
 
-	const int getSpeed() const;
+	int getSpeed() const;
 	void setSpeed(const int speed);
-	const int getMode() const;
+	int getMode() const;
 
 protected:
 	QSlider *slider_options;

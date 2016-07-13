@@ -24,7 +24,7 @@ void mpGame::newGame()
 
 }
 
-const bool mpGame::isOver() const
+bool mpGame::isOver() const
 {
 	return (over);
 }
@@ -230,12 +230,12 @@ void mpGame::randBlock(mpBlock &b)
 
 }
 
-const int mpGame::getScore() const
+int mpGame::getScore() const
 {
 	return score;
 }
 
-const int mpGame::getLines() const
+int mpGame::getLines() const
 {
 	return lines;
 }

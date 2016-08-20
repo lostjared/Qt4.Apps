@@ -1,0 +1,7 @@
+to build this project type:
+
+
+qmake
+make
+
+

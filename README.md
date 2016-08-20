@@ -1,3 +1,3 @@
 # Qt4.Apps
 
-A Few games written using C++ and Qt4.
+Some programs using C++ and Qt4.

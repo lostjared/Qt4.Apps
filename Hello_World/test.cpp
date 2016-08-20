@@ -7,8 +7,8 @@
 int main(int argc, char **argv) {
     
     QApplication app(argc, argv);
-    Window1 *win1 = new Window1();
-    win1->show();
+    Window1 win1;
+    win1.show();
     app.exec();
     
     return 0;

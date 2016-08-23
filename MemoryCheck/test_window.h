@@ -7,7 +7,7 @@
 
 class MyQPushButton : public QPushButton {
 public:
-    MyQPushButton(QString str, QWidget *parent) : QPushButton(str, parent), name(str) {}
+    MyQPushButton(const QString &str, QWidget *parent) : QPushButton(str, parent), name(str) {}
     
     ~MyQPushButton() {
         std::cout << name.toUtf8().constData() << " released..\n";

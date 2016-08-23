@@ -1,3 +1,8 @@
+This project demonstrates how when you use new to create a object that inherits from QObject
+and set its parent to another Object when the destructor for the root object is destroyed the child objects
+are also destroyed.
+
+
 to build this project type:
 
 qmake

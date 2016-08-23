@@ -4,7 +4,7 @@
 Window1::Window1(QWidget *parent) : QMainWindow(parent) {
     setWindowTitle("Memory Check");
     setGeometry(0,0,640,480);
-    button1 = new QPushButton("Hello", this);// sets parent for release
+    button1 = new MyQPushButton("Hello", this);
     button1->setGeometry(0,0,640,480);
     button1->show();
     connect(button1, SIGNAL(clicked()), this, SLOT(sayHello()));

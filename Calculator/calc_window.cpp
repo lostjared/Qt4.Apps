@@ -69,11 +69,11 @@ void initFunctions() {
 CalculatorWindow::CalculatorWindow(QWidget *parent) : QMainWindow(parent) {
     initFunctions();
     setGeometry(0,0,640,460);
-    setWindowTitle("Expression Calculator");
+    setWindowTitle(QObject::tr("Expression Calculator"));
     setFixedSize(640, 460);
     edit_box = new QTextEdit(this);
     edit_box->setGeometry(5, 5, 630, 420);
-    proc = new QPushButton("Parse", this);
+    proc = new QPushButton(QObject::tr("Parse"), this);
     proc->setGeometry(550, 430, 85, 20);
     connect(proc, SIGNAL(clicked()),this,SLOT(parse_expression()));
 }
@@ -93,7 +93,7 @@ void CalculatorWindow::parse_expression() {
     catch(lex::Exit_Exception) {}
     
     QMessageBox msgbox;
-    msgbox.setText(stream.str().c_str());
+    msgbox.setText(QObject::tr(stream.str().c_str()));
     msgbox.exec();
     stream.str("");
 }

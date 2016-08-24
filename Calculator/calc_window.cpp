@@ -64,8 +64,6 @@ void initFunctions() {
     });
 }
 
-
-
 CalculatorWindow::CalculatorWindow(QWidget *parent) : QMainWindow(parent) {
     initFunctions();
     setGeometry(0,0,640,460);
@@ -81,7 +79,17 @@ CalculatorWindow::CalculatorWindow(QWidget *parent) : QMainWindow(parent) {
 void CalculatorWindow::parse_expression() {
     const QString &text = edit_box->toPlainText();
     std::string temp_text = text.toUtf8().constData();
-    grabInput(temp_text);
+    try {
+    	grabInput(temp_text);
+    }
+    catch(std::exception &e) {
+        stream << e.what() << "\n";
+    }
+    catch(lex::Scanner_EOF) {
+        stream << "end of file.\n";
+    }
+    catch(lex::Exit_Exception) {}
+    
     QMessageBox msgbox;
     msgbox.setText(stream.str().c_str());
     msgbox.exec();

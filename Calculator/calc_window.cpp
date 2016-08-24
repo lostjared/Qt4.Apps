@@ -3,6 +3,8 @@
 #include<iomanip>
 #include<unordered_map>
 #include<sstream>
+#include<cmath>
+#include<string>
 #include"lexer.h"
 
 std::unordered_map<std::string, double> variables;

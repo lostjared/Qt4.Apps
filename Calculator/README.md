@@ -4,6 +4,7 @@
 To compile this project use:
 
 qmake 
+
 make
 
 

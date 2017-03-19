@@ -1,4 +1,4 @@
-#include<QtGui>
+#include<QApplication>
 #include<iostream>
 #include"test_window.h"
 

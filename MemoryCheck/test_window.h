@@ -2,7 +2,12 @@
 #ifndef __QT_TEST__
 #define __QT_TEST__
 
-#include<QtGui>
+
+#include<QApplication>
+#include<QMainWindow>
+#include<QWidget>
+#include<QPushButton>
+#include<QMessageBox>
 #include<iostream>
 
 class MyQPushButton : public QPushButton {

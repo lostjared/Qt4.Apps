@@ -1,8 +1,12 @@
 #ifndef __CALC_WINDOW_H__
 #define __CALC_WINDOW_H__
 
-#include<QtGui>
-#include<QtCore>
+#include<QApplication>
+#include<QMainWindow>
+#include<QTextEdit>
+#include<QPushButton>
+#include<QWidget>
+#include<QMessageBox>
 
 class CalculatorWindow : public QMainWindow {
     Q_OBJECT

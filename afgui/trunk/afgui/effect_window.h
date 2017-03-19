@@ -2,7 +2,26 @@
 #define _EFFECTWINDOW_H_
 
 
-#include<QtGui>
+#include<QDialog>
+#include<QMainWindow>
+#include<QWidget>
+#include<QMenu>
+#include<QAction>
+#include<QImage>
+#include<QListWidget>
+#include<QLineEdit>
+#include<QSlider>
+#include<QCheckBox>
+#include<QPushButton>
+#include<QLabel>
+#include<QHBoxLayout>
+#include<QVBoxLayout>
+#include<QMenuBar>
+#include<QTextStream>
+#include<QMessageBox>
+#include<QFileDIalog>
+#include<QFile>
+#include<QPainter>
 
 extern QString pathstr;
 

@@ -1,5 +1,4 @@
-#include<QtGui>
-#include<iostream>
+
 #include"test_window.h"
 
 int main(int argc, char **argv) {

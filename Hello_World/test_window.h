@@ -2,8 +2,10 @@
 #ifndef __QT_TEST__
 #define __QT_TEST__
 
-#include<QtGui>
-#include<iostream>
+#include<QMainWindow>
+#include<QWidget>
+#include<QLabel>
+#include<QApplication>
 
 class Window1 : public QMainWindow {
     

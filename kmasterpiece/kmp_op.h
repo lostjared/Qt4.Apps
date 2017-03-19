@@ -2,8 +2,18 @@
 #ifndef __KMPOP_H__
 #define __KMPOP_H__
 
-#include<QtGui>
-
+#include<QDialog>
+#include<QWidget>
+#include<QCloseEvent>
+#include<QSlider>
+#include<QSpinBox>
+#include<QPushButton>
+#include<QRadioButton>
+#include<QLabel>
+#include<QImage>
+#include<QPainter>
+#include<QHBoxLayout>
+#include<QVBoxLayout>
 
 class OptionsDialog : public QDialog
 {

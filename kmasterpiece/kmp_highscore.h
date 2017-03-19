@@ -1,8 +1,18 @@
 #ifndef __KMP__HIGHSCORES__H_
 #define __KMP__HIGHSCORES__H_
 
-#include<QtGui>
+#include<QDialog>
+#include<QWidget>
+#include<QCloseEvent>
+#include<QSlider>
+#include<QSpinBox>
+#include<QPushButton>
+#include<QRadioButton>
+#include<QListWidget>
 #include<QStringList>
+#include<QLabel>
+#include<QTextEdit>
+#include<QTextStream>
 #include<vector>
 
 struct Scorer {

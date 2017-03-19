@@ -1,8 +1,16 @@
 #ifndef __KMP_INFO__H_
 #define __KMP_INFO__H_
-#include<QtGui>
 
-
+#include<QDialog>
+#include<QWidget>
+#include<QCloseEvent>
+#include<QSlider>
+#include<QSpinBox>
+#include<QPushButton>
+#include<QRadioButton>
+#include<QLabel>
+#include<QImage>
+#include<QPainter>
 
 class infoWindow : public QDialog {
 

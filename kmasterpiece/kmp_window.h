@@ -1,8 +1,18 @@
 #ifndef __KMP__H__
 #define __KMP__H__
 
-#include<QtGui>
+#include<QMainWindow>
+#include<QWidget>
+#include<QPaintEvent>
+#include<QPainter>
+#include<QKeyEvent>
+#include<QTimer>
+#include<QPixmap>
+#include<QMenu>
+#include<QAction>
+#include<QLabel>
 #include<QList>
+#include<QMenuBar>
 #include "mp.h"
 #include "kmp_op.h"
 #include "kmp_info.h"

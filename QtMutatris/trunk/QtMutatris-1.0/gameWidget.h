@@ -4,9 +4,11 @@
 // cool
 #define DEBUG_MODE_ON
 
-
-#include<QtCore>
-#include<QtGui>
+#include<QMainWindow>
+#include<QMenu>
+#include<QAction>
+#include<QMessageBox>
+#include<QWidget>
 #include<QtOpenGL>
 #ifdef __APPLE__
 #include<OpenGL/glu.h>

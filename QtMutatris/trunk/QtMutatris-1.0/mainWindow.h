@@ -2,8 +2,12 @@
 #define __MAINWINDOW_H__
 
 
-#include<QtGui>
-#include<QtCore>
+#include<QMainWindow>
+#include<QMenu>
+#include<QAction>
+#include<QMessageBox>
+#include<QWidget>
+#include<QApplication>
 #include "gameWidget.h"
 
 class optionsWindow;
